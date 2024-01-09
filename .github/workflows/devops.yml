@@ -15,6 +15,6 @@ jobs:
             username: ${{ secrets.DOCKERHUB_USERNAME }}
             password: ${{ secrets.DOCKERHUB_TOKEN }}
        - run: |
-          docker build -t registry.hub.docker.com/sudipmondal2002/demo-shaastra .
-          docker push registry.hub.docker.com/sudipmondal2002/demo-shaastra
+          docker build -t registry.hub.docker.com/syedmohamedimran/demo-shaastra .
+          docker push registry.hub.docker.com/syedmohamedimran/demo-shaastra
       
